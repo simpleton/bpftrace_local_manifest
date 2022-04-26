@@ -18,4 +18,7 @@
   <project name="bcc" path="external/bpftrace/bcc" remote="michalgr" revision="bpftrace_for_android_take9"/>
   <project name="bpftrace" path="external/bpftrace/bpftrace" remote="michalgr" revision="bpftrace_for_android_take10"/>
   <project name="cereal" path="external/cereal" remote="danielocfb" revision="topic/aosp-build-rules"/>
+
+  <remove-project name="aosp/platform/bionic"/>
+  <project name="platform_bionic" path="bionic" remote="danielocfb" revision="topic/update-bpf-defines"/>
 </manifest>
