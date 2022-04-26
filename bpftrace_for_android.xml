@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://github.com/michalgr" name="michalgr"/>
+  <remote fetch="https://github.com/danielocfb" name="danielocfb"/>
 
   <project name="platform_external_flex" path="external/flex" remote="michalgr" revision="bpftrace_for_android"/>
 
@@ -16,4 +17,5 @@
   <project name="libbpf" path="external/bpftrace/libbpf" remote="michalgr" revision="bpftrace_for_android_take8"/>
   <project name="bcc" path="external/bpftrace/bcc" remote="michalgr" revision="bpftrace_for_android_take9"/>
   <project name="bpftrace" path="external/bpftrace/bpftrace" remote="michalgr" revision="bpftrace_for_android_take10"/>
+  <project name="cereal" path="external/cereal" remote="danielocfb" revision="topic/aosp-build-rules"/>
 </manifest>
