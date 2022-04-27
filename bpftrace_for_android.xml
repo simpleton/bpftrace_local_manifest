@@ -8,9 +8,6 @@
   <remove-project name="aosp/platform/external/xz-embedded"/>
   <project name="platform_external_xz-embedded" path="external/xz-embedded" remote="michalgr" revision="bpftrace_for_android"/>
 
-  <remove-project name="aosp/platform/external/elfutils"/>
-  <project name="platform_external_elfutils" path="external/elfutils" remote="michalgr" revision="bpftrace_for_android_take9"/>
-
   <project name="platform_external_bison" path="external/bpftrace/bison3" remote="michalgr" revision="bpftrace_for_android_take8"/>
   <project name="platform_external_clang8" path="external/bpftrace/clang8" remote="michalgr" revision="bpftrace_for_android_take8"/>
   <project name="platform_external_llvm8" path="external/bpftrace/llvm8" remote="michalgr" revision="bpftrace_for_android_take9"/>
