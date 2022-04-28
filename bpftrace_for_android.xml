@@ -13,7 +13,7 @@
   <project name="platform_external_llvm8" path="external/bpftrace/llvm8" remote="michalgr" revision="bpftrace_for_android_take9"/>
   <project name="libbpf" path="external/bpftrace/libbpf" remote="danielocfb" revision="topic/0.6.0"/>
   <project name="bcc" path="external/bpftrace/bcc" remote="danielocfb" revision="topic/libbpf-0.6.0"/>
-  <project name="bpftrace" path="external/bpftrace/bpftrace" remote="danielocfb" revision="topic/0.9.2-w-libbpf-0.6.0"/>
+  <project name="bpftrace" path="external/bpftrace/bpftrace" remote="danielocfb" revision="topic/0.9.4-w-libbpf-0.6.0"/>
   <project name="cereal" path="external/cereal" remote="danielocfb" revision="topic/aosp-build-rules"/>
 
   <remove-project name="aosp/platform/bionic"/>
