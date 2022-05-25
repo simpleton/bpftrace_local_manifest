@@ -2,6 +2,7 @@
 <manifest>
   <remote fetch="https://github.com/michalgr" name="michalgr"/>
   <remote fetch="https://github.com/danielocfb" name="danielocfb"/>
+  <remote fetch="https://github.com/jeez" name="jeez"/>
 
   <project name="platform_external_flex" path="external/flex" remote="michalgr" revision="bpftrace_for_android"/>
 
@@ -11,11 +12,11 @@
   <project name="platform_external_bison" path="external/bpftrace/bison3" remote="michalgr" revision="bpftrace_for_android_take8"/>
   <project name="platform_external_clang8" path="external/bpftrace/clang8" remote="michalgr" revision="bpftrace_for_android_take8"/>
   <project name="platform_external_llvm8" path="external/bpftrace/llvm8" remote="michalgr" revision="bpftrace_for_android_take9"/>
-  <project name="libbpf" path="external/bpftrace/libbpf" remote="danielocfb" revision="topic/0.6.0"/>
-  <project name="bcc" path="external/bpftrace/bcc" remote="danielocfb" revision="topic/libbpf-0.6.0"/>
-  <project name="bpftrace" path="external/bpftrace/bpftrace" remote="danielocfb" revision="topic/0.9.4-w-libbpf-0.6.0"/>
+  <project name="libbpf" path="external/bpftrace/libbpf" remote="jeez" revision="0.8.0-for-android"/>
+  <project name="bcc" path="external/bpftrace/bcc" remote="jeez" revision="0.24.0-for-android"/>
+  <project name="bpftrace" path="external/bpftrace/bpftrace" remote="jeez" revision="0.14.1-for-android"/>
   <project name="cereal" path="external/cereal" remote="danielocfb" revision="topic/aosp-build-rules"/>
 
   <remove-project name="aosp/platform/bionic"/>
-  <project name="platform_bionic" path="bionic" remote="danielocfb" revision="topic/update-bpf-defines"/>
+  <project name="platform_bionic" path="bionic" remote="jeez" revision="latest-android"/>
 </manifest>
