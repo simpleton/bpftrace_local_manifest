@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://github.com/michalgr" name="michalgr"/>
-  <remote fetch="https://github.com/danielocfb" name="danielocfb"/>
-  <remote fetch="https://github.com/jeez" name="jeez"/>
+  <remote fetch="https://github.com/simpleton" name="simsun"/>
 
-  <project name="platform_external_flex" path="external/flex" remote="michalgr" revision="bpftrace_for_android"/>
+  <project name="platform_external_flex" path="external/flex" remote="simsun" revision="o10"/>
 
   <remove-project name="aosp/platform/external/xz-embedded"/>
-  <project name="platform_external_xz-embedded" path="external/xz-embedded" remote="michalgr" revision="bpftrace_for_android"/>
+  <project name="platform_external_xz-embedded" path="external/xz-embedded" remote="simsun" revision="o10"/>
 
-  <project name="platform_external_bison" path="external/bpftrace/bison3" remote="michalgr" revision="bpftrace_for_android_take8"/>
-  <project name="platform_external_clang8" path="external/bpftrace/clang8" remote="michalgr" revision="bpftrace_for_android_take8"/>
-  <project name="platform_external_llvm8" path="external/bpftrace/llvm8" remote="michalgr" revision="bpftrace_for_android_take9"/>
-  <project name="libbpf" path="external/bpftrace/libbpf" remote="jeez" revision="0.8.0-for-android"/>
-  <project name="bcc" path="external/bpftrace/bcc" remote="jeez" revision="0.24.0-for-android"/>
-  <project name="bpftrace" path="external/bpftrace/bpftrace" remote="jeez" revision="0.15.0-for-android"/>
-  <project name="cereal" path="external/cereal" remote="danielocfb" revision="topic/aosp-build-rules"/>
+  <project name="platform_external_bison" path="external/bpftrace/bison3" remote="simsun" revision="o10"/>
+  <project name="platform_external_clang8" path="external/bpftrace/clang8" remote="simsun" revision="o10"/>
+  <project name="platform_external_llvm8" path="external/bpftrace/llvm8" remote="simsun" revision="o10"/>
+
+  <project name="libbpf" path="external/bpftrace/libbpf" remote="simsun" revision="0.8.0-o10"/>
+  <project name="bcc" path="external/bpftrace/bcc" remote="simsun" revision="0.24.0-o10"/>
+  <project name="bpftrace" path="external/bpftrace/bpftrace" remote="simsun" revision="0.15.0-o10"/>
+
+  <project name="cereal" path="external/cereal" remote="simsun" revision="o10"/>
 
   <remove-project name="aosp/platform/bionic"/>
-  <project name="platform_bionic" path="bionic" remote="jeez" revision="latest-android"/>
+  <project name="platform_bionic" path="bionic" remote="simsun" revision="o10"/>
 </manifest>
