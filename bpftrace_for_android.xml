@@ -3,21 +3,19 @@
   <remote fetch="https://github.com/michalgr" name="michalgr"/>
   <remote fetch="https://github.com/simpleton" name="simsun"/>
 
-  <project name="platform_external_flex" path="external/flex" remote="simsun" revision="o10"/>
+  <project name="platform_external_flex" path="external/flex" remote="simsun" revision="o12"/>
 
   <remove-project name="aosp/platform/external/xz-embedded"/>
-  <project name="platform_external_xz-embedded" path="external/xz-embedded" remote="simsun" revision="o10"/>
+  <project name="platform_external_xz-embedded" path="external/xz-embedded" remote="simsun" revision="o12"/>
 
-  <project name="platform_external_bison" path="external/bpftrace/bison3" remote="simsun" revision="o10"/>
-  <project name="platform_external_clang8" path="external/bpftrace/clang8" remote="simsun" revision="o10"/>
-  <project name="platform_external_llvm8" path="external/bpftrace/llvm8" remote="simsun" revision="o10"/>
+  <project name="platform_external_bison" path="external/bpftrace/bison3" remote="simsun" revision="o12"/>
+  <project name="platform_external_clang8" path="external/bpftrace/clang8" remote="simsun" revision="o12"/>
+  <project name="platform_external_llvm8" path="external/bpftrace/llvm8" remote="simsun" revision="o12"/>
 
-  <project name="libbpf" path="external/bpftrace/libbpf" remote="simsun" revision="0.8.0-o10"/>
-  <project name="bcc" path="external/bpftrace/bcc" remote="simsun" revision="0.24.0-o10"/>
-  <project name="bpftrace" path="external/bpftrace/bpftrace" remote="simsun" revision="0.15.0-o10"/>
+  <project name="libbpf" path="external/bpftrace/libbpf" remote="simsun" revision="0.8.0-o12"/>
+  <project name="bcc" path="external/bpftrace/bcc" remote="simsun" revision="0.24.0-o12"/>
+  <project name="bpftrace" path="external/bpftrace/bpftrace" remote="simsun" revision="0.15.0-o12"/>
 
-  <project name="cereal" path="external/cereal" remote="simsun" revision="o10"/>
+  <project name="cereal" path="external/cereal" remote="simsun" revision="o12"/>
 
-  <remove-project name="aosp/platform/bionic"/>
-  <project name="platform_bionic" path="bionic" remote="simsun" revision="o10"/>
 </manifest>
