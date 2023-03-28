@@ -12,9 +12,9 @@
   <project name="platform_external_clang8" path="external/bpftrace/clang8" remote="simsun" revision="o10"/>
   <project name="platform_external_llvm8" path="external/bpftrace/llvm8" remote="simsun" revision="o10"/>
 
-  <project name="libbpf" path="external/bpftrace/libbpf" remote="simsun" revision="0.8.0-o10"/>
-  <project name="bcc" path="external/bpftrace/bcc" remote="simsun" revision="0.24.0-o10"/>
-  <project name="bpftrace" path="external/bpftrace/bpftrace" remote="simsun" revision="0.15.0-o10"/>
+  <project name="libbpf" path="external/bpftrace/libbpf" remote="simsun" revision="1.1.0-o10"/>
+  <project name="bcc" path="external/bpftrace/bcc" remote="simsun" revision="master-o10"/>
+  <project name="bpftrace" path="external/bpftrace/bpftrace" remote="simsun" revision="0.17.0-o10"/>
 
   <project name="cereal" path="external/cereal" remote="simsun" revision="o10"/>
 
